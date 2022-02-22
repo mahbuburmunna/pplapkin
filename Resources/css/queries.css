@@ -1,0 +1,86 @@
+@media screen and (max-width:1200px) {
+    .row{
+        max-width: 100%;
+        padding: 0 3rem;
+    }
+}
+@media screen and (max-width:1024px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+        }
+    .paul{
+        max-width: 50%;
+        
+    }
+    .work-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .portfolio-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .portfolio-grid-item:nth-child(5){
+        grid-column: 1/2;
+    }
+}
+@media screen and (max-width:768px) {
+    .text-area h1{
+        font-size: 4.5rem;
+    }
+    .text-area span{
+        font-size: 1.8rem;
+    }
+    .work-text h2,h2{
+        font-size: 3.2rem;
+    }
+    h4{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:600px){
+    .work-grid-item {
+        padding: 4rem 0;
+        padding-bottom: 0;
+    }
+    h5{
+        margin: 0;
+    }
+    .experience-grid{
+        grid-template-columns: 1fr;
+    }
+    .contact-grid{
+        grid-template-columns: 1fr;
+    }
+}
+@media  screen and (max-width:480px){
+    #hero{
+        padding: 4.5rem 0;
+    }    
+    .paul{
+        width: 75%;
+        max-width: 75%;
+    }
+    #about{
+        padding: 6rem 0;
+    }
+    #work{
+        padding: 6rem 0;
+    }
+    .work-grid{
+        grid-template-columns: 1fr;
+    }
+    .portfolio-grid{
+        grid-template-columns: 1fr;
+    }
+    
+    #tm{
+        background: none;
+    }
+    .tm-grid{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .tm-grid-item{
+        width: 100%;
+    }
+}
